@@ -7,6 +7,7 @@ class Imelbox
     #Configure the Box
     config.vm.box = "ibx-wheezy64_vb"
     config.vm.box_url = "http://gt-adminsys.s3.amazonaws.com/box/ibx-wheezy64_vb.box"
+    config.ssh.shell = "bash -s"
 
 #    server_ip = settings["ip"] ||= "192.168.10.10"
 
